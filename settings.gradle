@@ -38,6 +38,7 @@ include 'pulsar-spring-boot-starter-test'
 include 'pulsar-spring-cloud-stream-binder'
 include 'pulsar-spring-dependencies'
 include 'pulsar-spring-docs'
+include 'pulsar-spring-integration'
 include 'pulsar-spring-test'
 include 'pulsar-spring-integration-tests'
 

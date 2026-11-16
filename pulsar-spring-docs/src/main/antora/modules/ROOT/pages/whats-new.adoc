@@ -33,6 +33,11 @@ The new `sample-native-image` sample application tests them with ahead-of-time p
 The binder now depends on `spring-boot-starter-jackson`, so that applications have an auto-configured `ObjectMapper` bean.
 Spring Cloud Function uses this bean for JSON conversion, so that it now applies `spring.jackson.*` properties and Jackson customizers, rather than falling back to its default configuration.
 
+=== Spring Integration channel adapters
+The new `pulsar-spring-integration` module provides channel adapters for Spring Integration: the `PulsarMessageHandler` sends messages to Pulsar, and the `PulsarMessageProducer` receives them.
+The `Pulsar` factory class provides both for the Java DSL.
+See xref:spring-integration.adoc[] for more information.
+
 === PulsarTestImage
 The `pulsar-spring-test` module has a new `PulsarTestImage` class, which creates Pulsar Testcontainers that are configured for tests.
 The `pulsar.test.image` system property or the `PULSAR_TEST_IMAGE` environment variable sets its default image.

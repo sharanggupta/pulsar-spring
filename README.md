@@ -39,6 +39,7 @@ All artifacts use the `org.apache.pulsar` group ID.
 | `pulsar-spring-boot-starter` | Starter for Spring Boot applications |
 | `pulsar-spring-boot-starter-test` | Starter for testing Spring Boot applications |
 | `pulsar-spring-cloud-stream-binder` | Spring Cloud Stream binder |
+| `pulsar-spring-integration` | Spring Integration channel adapters |
 | `pulsar-spring-test` | Test utilities |
 | `pulsar-spring-bom` | Bill of materials |
 

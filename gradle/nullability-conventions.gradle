@@ -19,6 +19,7 @@
 
 def javaProjects = [ 'pulsar-spring',
 					 'pulsar-spring-boot-autoconfigure',
+					 'pulsar-spring-integration',
 					 'pulsar-spring-test' ]
 
 allprojects {

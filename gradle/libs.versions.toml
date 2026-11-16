@@ -48,6 +48,7 @@ spring-dep-mgmt = "1.1.7"
 spring-boot = "4.1.2"
 spring-boot-for-docs = "4.1.2"
 spring-cloud-stream = "5.0.4"
+spring-integration = "7.1.2"
 swagger-annotations = "2.2.55"
 system-lambda = "1.2.1"
 testcontainers = "2.0.5"
@@ -108,6 +109,8 @@ spring-boot-testcontainers = { module = "org.springframework.boot:spring-boot-te
 spring-boot-transaction = { module = "org.springframework.boot:spring-boot-transaction", version.ref = "spring-boot" }
 spring-cloud-stream = { module = "org.springframework.cloud:spring-cloud-stream", version.ref = "spring-cloud-stream" }
 spring-cloud-stream-test-support = { module = "org.springframework.cloud:spring-cloud-stream-test-support", version.ref = "spring-cloud-stream" }
+spring-integration-core = { module = "org.springframework.integration:spring-integration-core", version.ref = "spring-integration" }
+spring-integration-test-support = { module = "org.springframework.integration:spring-integration-test-support", version.ref = "spring-integration" }
 swagger-annotations = { module = "io.swagger.core.v3:swagger-annotations-jakarta", version.ref = "swagger-annotations" }
 system-lambda = { module = "com.github.stefanbirkner:system-lambda", version.ref = "system-lambda" }
 testcontainers-bom = { module = "org.testcontainers:testcontainers-bom", version.ref = "testcontainers" }
