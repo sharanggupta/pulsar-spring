@@ -106,6 +106,9 @@ jobs:
           - name: Cloud Stream binder
             tasks: >-
               :pulsar-spring-cloud-stream-binder:test
+          - name: Spring Integration
+            tasks: >-
+              :pulsar-spring-integration:test
           - name: Integration
             tasks: >-
               :pulsar-spring-integration-tests:integrationTest
